@@ -1,0 +1,22 @@
+{
+  'name': 'lockfile',
+  'description': 'A simple utility for creating/checking lockfiles',
+  'keywords': ['tool', 'fs'],
+  'author': 'Trevor Burnham',
+  'email': 'trevorburnham@gmail.com',
+  'homepage': 'http://github.com/TrevorBurnham/lockfile',
+  'repository':
+  {
+    'type':'git',
+    'url':'http://github.com/TrevorBurnham/lockfile.git'
+  },
+  'licenses': [{'type': 'MIT'}],
+  'version': '0.1.0',
+  'engines': {
+    'node': '>= 0.2.0'
+  },
+  'directories': {
+    'lib': './lib'
+  },
+  'main': './lib/lockfile'
+}
