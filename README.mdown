@@ -2,6 +2,8 @@
 
 A very, very simple library for checking and creating lockfiles in Node.js. Note that it does not use the Linux `lockfile` utility; instead, it uses Node.js to access the filesystem directory.
 
+Written in CoffeeScript 1.0.
+
 # Installation
 
     npm install lockfile
@@ -21,6 +23,10 @@ A very, very simple library for checking and creating lockfiles in Node.js. Note
     # if you've gotten this far, the lock has been created
 
 The `checkOrCreate` method is **by far** the most useful.
+
+# Related projects
+
+Lockfile creation/checking is part of the much more feature-rich [https://github.com/Slashed/daemon.node](daemon.node). Check that out (some of its forks are more up-to-date).
 
 # Copyright
 
